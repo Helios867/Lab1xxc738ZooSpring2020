@@ -8,9 +8,9 @@ public class Zoo {
      * @param zooName
      * @param zone
      */
-    Zoo(String zooName, Zone[] zone){
+    Zoo(String zooName, int num){
         this.zooName = zooName;
-        this.zone = zone;
+        //this.zone = zone;
     }
 
     /**
@@ -25,7 +25,7 @@ public class Zoo {
      *
      * @param zone
      */
-    public void addZone(Zone[] zone){
+    public void addZone(Zone zone){
 
 
     }
